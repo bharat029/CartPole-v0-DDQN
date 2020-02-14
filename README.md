@@ -1,2 +1,3 @@
 # CartPole-v0-DDQN
-A simple solution to the CartPole-v0 environment (from Open AI Gym) using a Double Deep Q Network implemented using the Keras API from TensorFlow 2.x.
+
+A DDQN to solve the CartPole-v0 environment (from Open AI Gym). The Double Deep Q Network was implemented using the Keras API from TensorFlow 2.x. So far It has achieved an average of 146 over 100 episodes.
