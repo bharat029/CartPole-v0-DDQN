@@ -9,9 +9,9 @@ Here are two attempts at solving the CartPole Environment from Open AI Gym. Both
 - Epsilon Greedy Policy (with epsilon decay)
 - Average Reward: 150
 
-## Version 2
+## Version 2 (Solution to the Environment)
 
-- 500 episodes of training
+- 100 episodes of training
 - Expected Sarsa 
 - Softmax Policy (with temperature decay)
-- Average Reward: 180
+- Average Reward: 200 (Max Possible)
