@@ -1,17 +1,9 @@
-# CartPole-v0-DDQN
+# CartPole-v0 Solution
 
-Here are two attempts at solving the CartPole Environment from Open AI Gym. Both of these are Double Deep Q Networks implemented using the Keras API from TensorFlow 2.x.
+CartPole-v0 is an environment from OpenAI Gym. This is a simple Cart Pole problem, wehre the task is to keep a pole from falling. You get rewarded based on how long you can balance it.
 
-## Version 1
+I have used **Double Deep Q Networks (DDQN)** with the **Expected Sarsa** Update. As for Policy I used a **Softmax Policy** with temperature decay.
 
-- 1500+ episodes of training.
-- Q Learning 
-- Epsilon Greedy Policy (with epsilon decay)
-- Average Reward: 150
-
-## Version 2 (Solution to the Environment)
-
-- 100 episodes of training
-- Expected Sarsa 
-- Softmax Policy (with temperature decay)
-- Average Reward: 200 (Max Possible)
+## Highlights
+- Average reward of **200.0** (200 is the max possible reward in this environment) over 100 episodes.
+- Trained on **100** episodes.
